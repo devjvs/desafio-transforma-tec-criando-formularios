@@ -1,0 +1,38 @@
+.titulo {
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        padding: 50px; border: 1px solid #fff; 
+}
+
+.formu {
+    margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+}
+
+.titulo1 {
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    padding: 25px; border: 1px solid #fff; 
+}
+
+.titulo2 {
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    padding: 25px; border: 1px solid #fff; 
+}
+
+.titulo3 {
+    float:right;
+    width:800px;
+    position: absolute;
+    top: 160px;
+    right: 0px;
+}

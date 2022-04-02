@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Exercício - Formulário</title>
+        <link rel="stylesheet" type="text/css" href="session.css">
+    </head>
+    <body>
+        <form class="titulo">
+            <h1>
+                <font class="titulo1" size="10" color="#FF0000" face="Arial">Exercício</font><br />
+            </h1>
+            <table>
+                <tr>
+                    <td>
+                        <p>
+                            <h3 class="formu">Formulário de Novo Usuário</h3>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="e-mail">E-mail</label>
+                    </td>
+                    <td>
+                        <input name="e-mail" id="e-mail" type="text" placeholder="Digite seu E-mail" required="true"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="senha">Senha</label>
+                    </td>
+                    <td>
+                        <input name="senha" id="senha" type="text" placeholder="Digite sua Senha" required="true"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="confirmar">Confirmar Senha</label>
+                    </td>
+                    <td>
+                        <input name="confirmar" id="confirmar" type="text" placeholder="Confirme sua Senha" required="true"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" id="submit" name="submit" value="Confirmar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <form class="titulo2">
+            <table>
+                <tr>
+                    <td>
+                        <p>
+                            <h3 class="formu">Formulário de Login</h3>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email_login">E-mail</label>
+                    </td>
+                    <td>
+                        <label for="senha_login">Senha</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id="email_login" name="email_login" placeholder="Digite seu E-mail">
+                    </td>
+                    <td>
+                        <input type="text" name="senha_login" id="senha_login" placeholder="Digite sua Senha" required="true">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" id="submit" name="submit" value="Login">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <form class="titulo3">
+            <table>
+                <tr>
+                    <td>
+                        <p>
+                            <h3 class="formu">Formulário de Cadastro</h3>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nome">Nome</label>
+                    </td>
+                    <td>
+                        <input name="nome" id="nome" type="text" placeholder="Digite seu Nome" required="true"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sobrenome">Sobrenome</label>
+                    </td>
+                    <td>
+                        <input name="sobrenome" id="sobrenome" type="text" placeholder="Digite seu Sobrenome" required="true"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="endereco">Endereço</label>
+                    </td>
+                    <td>
+                        <textarea rows="3" id="endereco" name="endereco" required="true"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="disciplinas">Disciplinas</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" />Java<br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" />Java Script<br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" />HTML<br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" />PHP<br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" />SQL<br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="genero">Gênero</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="s1" id="m" checked="true" /><label >Masculino</label>
+                        <input type="radio" name="s1" id="f" /><label>Feminino</label>
+                        <input type="radio" name="s1" id="n"/><label>Prefiro não Informar</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="idade">Idade</label>
+                    </td>
+                    <td>
+                        <select id="idade" name="idade">
+                            <option value="">Selecione sua Idade no Intervalo</option>
+                            <option value="c">Criança - Até 12 anos.</option>
+                            <option value="a">Adolescente - De 12 a 18 anos.</option>
+                            <option value="a">Jovem - De 18 a 29 anos.</option >
+                            <option value="a">Adulto - Entre 30 e 59 anos.</option >
+                            <option value="i">Idoso - Igual ou superior a 60 anos.</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="picture">Foto de perfil</label>
+                    </td>
+                    <td>
+                        <input id="picture" type="file" name="picture"required="true"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="Cadastrar" name="cadastrar" id="cadastrar" />
+                        <input type="reset" value="Limpar" name="limpar" id="cadastrar"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
